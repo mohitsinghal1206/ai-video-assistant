@@ -74,8 +74,15 @@ pydub>=0.25.1
 requests>=2.32.0
 
 # Speech-to-Text
-openai-whisper==20240930
+#openai-whisper==
+# faster-whisper
+# torch>=2.2.0
+
+# Speech-to-Text
+git+https://github.com/openai/whisper.git
 torch>=2.2.0
+setuptools>=70
+wheel
 
 # LangChain / Mistral
 langchain-core>=0.2.0
